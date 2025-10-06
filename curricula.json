@@ -1,0 +1,276 @@
+{
+  "curricula": [
+    {
+      "id": "LOTO-FOUNDATION",
+      "title": "Lockout/Tagout (LOTO) Foundation",
+      "target_roles": [
+        "Operators",
+        "Maintenance"
+      ],
+      "duration_minutes": 35,
+      "objectives": [
+        "Identify energy sources",
+        "Apply/verify lock & tag",
+        "Restore safely"
+      ],
+      "modules": [
+        {
+          "title": "Why LOTO matters",
+          "topics": [
+            "OSHA overview",
+            "Injury case studies"
+          ]
+        },
+        {
+          "title": "The 6 core steps",
+          "topics": [
+            "Notify",
+            "Shutdown",
+            "Isolate",
+            "Lock/Tag",
+            "Verify zero energy",
+            "Return to service"
+          ]
+        },
+        {
+          "title": "Hands-on verification",
+          "topics": [
+            "Try-start test",
+            "Gauge bleed-off",
+            "Stored energy check"
+          ]
+        }
+      ],
+      "assessment": {
+        "type": "quiz",
+        "items": 8
+      },
+      "practical": {
+        "type": "demo",
+        "rubric": [
+          "Identifies sources",
+          "Applies lock",
+          "Verifies"
+        ]
+      },
+      "standards_refs": [
+        "OSHA 1910.147"
+      ]
+    },
+    {
+      "id": "FORKLIFT-SAFE",
+      "title": "Forklift Safety & Operation",
+      "target_roles": [
+        "Material Handling"
+      ],
+      "duration_minutes": 40,
+      "objectives": [
+        "Pre-shift inspection",
+        "Load capacity & stability",
+        "Safe driving"
+      ],
+      "modules": [
+        {
+          "title": "Pre-use checks",
+          "topics": [
+            "Tires",
+            "Mast chain",
+            "Hydraulics",
+            "Horn/lights"
+          ]
+        },
+        {
+          "title": "Operating zones",
+          "topics": [
+            "Pedestrian right-of-way",
+            "Speed",
+            "Visibility"
+          ]
+        },
+        {
+          "title": "Loading & stacking",
+          "topics": [
+            "CG triangle",
+            "Ramps",
+            "Dock edges"
+          ]
+        }
+      ],
+      "assessment": {
+        "type": "quiz",
+        "items": 10
+      },
+      "practical": {
+        "type": "route",
+        "rubric": [
+          "Inspection",
+          "Maneuvering",
+          "Load/unload"
+        ]
+      },
+      "standards_refs": [
+        "OSHA 1910.178"
+      ]
+    },
+    {
+      "id": "CNC-BASICS",
+      "title": "CNC Operator Basics",
+      "target_roles": [
+        "CNC Operators"
+      ],
+      "duration_minutes": 45,
+      "objectives": [
+        "Workholding & tooling",
+        "Program loading & dry-run",
+        "Inspection & alarms"
+      ],
+      "modules": [
+        {
+          "title": "PPE & guards",
+          "topics": [
+            "Door interlocks",
+            "Chip shields"
+          ]
+        },
+        {
+          "title": "Setup & offsets",
+          "topics": [
+            "Work zero",
+            "Tool length",
+            "Touch-off"
+          ]
+        },
+        {
+          "title": "Running safely",
+          "topics": [
+            "Single-block",
+            "Feed hold",
+            "Alarm response"
+          ]
+        }
+      ],
+      "assessment": {
+        "type": "quiz",
+        "items": 12
+      },
+      "practical": {
+        "type": "run",
+        "rubric": [
+          "Setup",
+          "Dry-run",
+          "Measure parts"
+        ]
+      },
+      "standards_refs": [
+        "ISO 23125"
+      ]
+    },
+    {
+      "id": "LEAN-5S",
+      "title": "5S & Lean Foundations",
+      "target_roles": [
+        "All Staff"
+      ],
+      "duration_minutes": 30,
+      "objectives": [
+        "Recognize wastes",
+        "Apply 5S",
+        "Sustain improvements"
+      ],
+      "modules": [
+        {
+          "title": "The 5S cycle",
+          "topics": [
+            "Sort",
+            "Set",
+            "Shine",
+            "Standardize",
+            "Sustain"
+          ]
+        },
+        {
+          "title": "Visual management",
+          "topics": [
+            "Shadow boards",
+            "Labels",
+            "Kanban"
+          ]
+        },
+        {
+          "title": "Safety linkage",
+          "topics": [
+            "Trip hazards",
+            "Spill control",
+            "Fire access"
+          ]
+        }
+      ],
+      "assessment": {
+        "type": "quiz",
+        "items": 7
+      },
+      "practical": {
+        "type": "gemba",
+        "rubric": [
+          "Before/After photos",
+          "Checklist score"
+        ]
+      },
+      "standards_refs": []
+    },
+    {
+      "id": "FIRE-SAFETY",
+      "title": "Workplace Fire Safety",
+      "target_roles": [
+        "All Staff"
+      ],
+      "duration_minutes": 25,
+      "objectives": [
+        "Identify fire classes",
+        "Use PASS",
+        "Evacuation routes"
+      ],
+      "modules": [
+        {
+          "title": "Classes & extinguishers",
+          "topics": [
+            "A/B/C/D/K",
+            "Compatibility"
+          ]
+        },
+        {
+          "title": "PASS drill",
+          "topics": [
+            "Pull",
+            "Aim",
+            "Squeeze",
+            "Sweep"
+          ]
+        },
+        {
+          "title": "Evac & muster",
+          "topics": [
+            "Routes",
+            "Wardens",
+            "Headcount"
+          ]
+        }
+      ],
+      "assessment": {
+        "type": "quiz",
+        "items": 6
+      },
+      "practical": {
+        "type": "drill",
+        "rubric": [
+          "Locate extinguisher",
+          "PASS demo",
+          "Report out"
+        ]
+      },
+      "standards_refs": [
+        "NFPA 10"
+      ]
+    }
+  ]
+}

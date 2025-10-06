@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "cnc_haas_vf2",
+      "name": "CNC Mill \u2014 Haas VF-2",
+      "capabilities": [
+        "milling",
+        "tapping",
+        "boring"
+      ],
+      "common_hazards": [
+        "entanglement",
+        "projectiles",
+        "noise >85 dB",
+        "coolant exposure"
+      ],
+      "controls": [
+        "interlocked guards",
+        "E-stop",
+        "PPE: safety glasses, ear protection"
+      ],
+      "sop_refs": [
+        "sop_cnc_setup_v1",
+        "sop_cnc_loto_v1"
+      ]
+    },
+    {
+      "id": "injection_arburg_470c",
+      "name": "Injection Molding \u2014 Arburg 470 C",
+      "capabilities": [
+        "thermoplastic molding"
+      ],
+      "common_hazards": [
+        "thermal burns",
+        "pinch points",
+        "hydraulic leaks"
+      ],
+      "controls": [
+        "guarding",
+        "lockable isolators",
+        "heat-resistant gloves"
+      ],
+      "sop_refs": [
+        "sop_im_setup_v1",
+        "sop_loto_v1"
+      ]
+    }
+  ]
+}

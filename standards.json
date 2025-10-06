@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "standards": [
+    {
+      "code": "ISO 9001",
+      "area": "Quality management",
+      "implications": [
+        "documented procedures",
+        "training records"
+      ]
+    },
+    {
+      "code": "ISO 45001",
+      "area": "Occupational H&S",
+      "implications": [
+        "risk assessment",
+        "competency-based training"
+      ]
+    },
+    {
+      "code": "EU-OSHA",
+      "area": "EU safety",
+      "implications": [
+        "LOTO",
+        "machine guarding",
+        "noise control"
+      ]
+    }
+  ]
+}

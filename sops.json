@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "sop_cnc_setup_v1",
+      "title": "CNC Setup \u2014 Haas VF-2",
+      "steps": [
+        "Verify work order and drawing revision.",
+        "Complete pre-use inspection (guards, E-stop, coolant levels).",
+        "Load workholding, torque to spec.",
+        "Load program and dry-run with single-block.",
+        "Set tool offsets and work coordinate.",
+        "Run first-off with supervisor approval."
+      ]
+    },
+    {
+      "id": "sop_cnc_loto_v1",
+      "title": "CNC Lockout/Tagout (LOTO)",
+      "steps": [
+        "Notify affected employees.",
+        "Shut down machine using normal controls.",
+        "Isolate energy sources (electrical, pneumatic).",
+        "Apply locks/tags to each isolator.",
+        "Release stored energy and verify zero energy state.",
+        "Perform maintenance.",
+        "Remove locks/tags and restore power."
+      ]
+    },
+    {
+      "id": "sop_im_setup_v1",
+      "title": "Injection Molding Setup \u2014 Arburg 470 C",
+      "steps": [
+        "Confirm material and mold spec.",
+        "Pre-heat mold; check clamp force settings.",
+        "Purge barrel; verify temperatures and pressures.",
+        "Dry run; check guarding and interlocks.",
+        "Run first-off; record parameters."
+      ]
+    },
+    {
+      "id": "sop_loto_v1",
+      "title": "Generic Lockout/Tagout (LOTO)",
+      "steps": [
+        "Notify affected employees.",
+        "Shut down normal controls.",
+        "Isolate energy sources.",
+        "Apply lock & tag.",
+        "Release stored energy.",
+        "Verify zero energy state.",
+        "Service and restore."
+      ]
+    }
+  ]
+}

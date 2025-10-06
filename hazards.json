@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "taxonomy": [
+    "mechanical",
+    "electrical",
+    "thermal",
+    "chemical",
+    "noise",
+    "ergonomic"
+  ],
+  "controls_hierarchy": [
+    "elimination",
+    "substitution",
+    "engineering",
+    "administrative",
+    "PPE"
+  ],
+  "examples": [
+    {
+      "id": "mech_entanglement",
+      "category": "mechanical",
+      "desc": "Rotating spindles can entangle loose clothing or hair.",
+      "controls": [
+        "engineering: fixed/interlocked guards",
+        "admin: tie hair, no jewelry",
+        "PPE: fitted clothing"
+      ]
+    },
+    {
+      "id": "elec_loto",
+      "category": "electrical",
+      "desc": "Unexpected energization during maintenance.",
+      "controls": [
+        "admin: LOTO procedure",
+        "engineering: lockable isolators",
+        "training: authorized personnel only"
+      ]
+    }
+  ]
+}
