@@ -1,5 +1,8 @@
+# ImpactX Training Studio — Lean Optimized Requirements
+# Faster Streamlit boot + stable dependency tree
+streamlit==1.34.0
 pandas==2.2.2
-pillow==9.5.0
+pillow==10.4.0
 openai==1.30.0
 moviepy==1.0.3
 imageio==2.31.3
