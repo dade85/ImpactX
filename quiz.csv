@@ -1,0 +1,3 @@
+qid,question,type,a,b,c,answer
+q1,Purpose of LOTO?,single,Prevent unexpected energization,Speed up changeovers,Reduce noise,a
+q2,Is E-stop isolation?,single,Yes,No,Sometimes,b
