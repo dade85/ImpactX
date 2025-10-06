@@ -1,0 +1,9 @@
+streamlit==1.37.0
+pandas==2.2.2
+pillow==9.5.0
+openai==1.30.0
+moviepy==1.0.3
+imageio==2.31.3
+imageio-ffmpeg==0.4.8
+pyttsx3==2.90
+pypiwin32; platform_system == "Windows"
