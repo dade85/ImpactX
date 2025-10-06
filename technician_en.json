@@ -1,0 +1,21 @@
+{
+  "role": "Maintenance Technician",
+  "seniority": "mid",
+  "languages": [
+    "en",
+    "nl"
+  ],
+  "goals": [
+    "prevent breakdowns",
+    "apply LOTO correctly"
+  ],
+  "constraints": [
+    "shift work",
+    "hands-on checklists"
+  ],
+  "compliance_focus": [
+    "authorized LOTO",
+    "hydraulics safety",
+    "electrical isolation"
+  ]
+}

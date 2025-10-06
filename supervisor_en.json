@@ -1,0 +1,22 @@
+{
+  "role": "Production Supervisor",
+  "seniority": "senior",
+  "languages": [
+    "en",
+    "nl"
+  ],
+  "goals": [
+    "ensure compliance",
+    "reduce incidents",
+    "optimize OEE"
+  ],
+  "constraints": [
+    "reporting cadence",
+    "audit readiness"
+  ],
+  "compliance_focus": [
+    "training records",
+    "risk assessments",
+    "incident review"
+  ]
+}

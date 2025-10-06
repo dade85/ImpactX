@@ -1,0 +1,22 @@
+{
+  "role": "CNC Operator",
+  "seniority": "junior",
+  "languages": [
+    "en",
+    "nl"
+  ],
+  "goals": [
+    "run jobs safely",
+    "hit OEE targets",
+    "basic troubleshooting"
+  ],
+  "constraints": [
+    "limited time per lesson (~6 min)",
+    "mobile-first"
+  ],
+  "compliance_focus": [
+    "machine guarding",
+    "LOTO awareness",
+    "PPE"
+  ]
+}
