@@ -5,6 +5,22 @@ Created on Mon Oct  6 13:00:28 2025
 @author: DavidAdewunmi
 """
 
+import subprocess, sys, streamlit as st
+
+def safe_import(mod_name, pip_spec=None):
+    try:
+        return __import__(mod_name)
+    except ModuleNotFoundError:
+        if pip_spec:
+            try:
+                st.warning(f"Installing missing dependency: {pip_spec}")
+                subprocess.check_call([sys.executable, "-m", "pip", "install", pip_spec, "--quiet"])
+                return __import__(mod_name)
+            except Exception as e:
+                st.error(f"Auto-install failed for {pip_spec}: {e}")
+                raise
+        raise
+        
 # app.py — ImpactX Training Studio (Instant Boot Edition)
 # - UI renders immediately
 # - Heavy libs warm up in a background thread
@@ -585,3 +601,4 @@ with tab_kb:
 with st.expander("⚙️ Boot profile", expanded=False):
     for msg, t in st.session_state.get("_boot_marks", []):
         st.write(f"{t} — {msg}")
+
