@@ -1,15 +1,8 @@
 # ImpactX Training Studio — Lean Optimized (Python 3.13)
 # Streamlit UI + LLM + video pipeline (MoviePy) + imageio fallback + TTS
 
-streamlit==1.34.0         # stable, quick boot
-pandas==2.2.2             # fast wheels, OK with Py 3.13
-pillow==10.4.0            # image handling for slides
-openai==1.30.0            # LLM client
-moviepy==1.0.3            # video composition
-numpy==2.1.3              # Py 3.13-compatible wheels
-imageio==2.35.1           # image writer (silent video fallback)
-imageio-ffmpeg==0.5.1     # bundled ffmpeg executable
-pyttsx3==2.90             # offline TTS
-
-# Windows-only voice runtime dependency (skipped elsewhere)
-pywin32>=306; platform_system == "Windows"
+streamlit==1.34.0
+pandas==2.2.2
+openai==1.30.0
+pillow==10.4.0
+numpy==2.1.3
